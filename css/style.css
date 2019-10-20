@@ -518,3 +518,28 @@
     -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
     transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
 }
+
+.div1-documentos {
+    padding-top: 10%;
+}
+
+.div1-documentos {}
+
+.div1-documentos img {
+    width: 100%;
+}
+
+.div1-documentos h1 {
+    font-size: 5em;
+    font-weight: 700;
+    text-align: left;
+    color: #0685d9;
+}
+
+.div1-documentos h2 {
+    color: ;
+}
+
+.div1-documentos h3 {}
+
+.div1-documentos p {}
