@@ -1,0 +1,3 @@
+# Monitore - Nasa Space Apps Challenge 2019
+
+Projeto desenvolvido a fim de sanar problemas de ausencia de dados sobre o ph a agua de Rios, Mares, Igarapés, lagos etc...
