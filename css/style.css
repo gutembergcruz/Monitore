@@ -96,7 +96,7 @@
     width: 495px;
     font-size: 1.5em;
     text-align: right;
-    margin-bottom: 165px;
+    margin-bottom: 136px;
 }
 
 .textos1 h1 {
@@ -107,7 +107,7 @@
     font-size: 1.5em;
     text-align: right;
     margin-left: 500px;
-    margin-bottom: 165px;
+    margin-bottom: 160px;
 }
 
 .textos1 h2 {
@@ -128,7 +128,7 @@
 }
 
 .contribua {
-    margin-top: 165px;
+    margin-top: 200px;
     border: 3px solid #0685d9;
     border-radius: 0px 170px 170px 0px;
     height: 365px;
@@ -144,14 +144,31 @@
 .contribua h1 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.7em;
+    font-size: 1.4em;
     text-align: left;
     color: #0685d9;
-    margin-bottom: 7%;
+    margin-bottom: 40px;
+    margin-top: 32px;
 }
 
 .contribua p {
-    font-size: 1.7em;
+    font-size: 1.2em;
+}
+
+.contribua .box60 {
+    padding: 0 10%;
+}
+
+.encontre .box60 {
+    padding: 0 10%;
+}
+
+.contribua .box70 {
+    padding: 0 10%;
+}
+
+.encontre .box70 {
+    padding: 0 10%;
 }
 
 .encontre {
@@ -172,14 +189,15 @@
 .encontre h1 {
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.7em;
+    font-size: 1.4em;
     text-align: left;
     color: #0685d9;
-    margin-bottom: 7%;
+    margin-bottom: 40px;
+    margin-top: 32px;
 }
 
 .encontre p {
-    font-size: 1.7em;
+    font-size: 1.2em;
 }
 
 .start {
@@ -224,6 +242,128 @@
 
 .roda a:hover {
     color: #ffffff;
+}
+
+
+/*PAGINA LOGIN*/
+
+.cab-login {
+    padding: 1% 0%;
+}
+
+.cab-login div {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.cab-login img {
+    width: 100%;
+}
+
+.social {
+    width: 10%;
+    float: left;
+    margin: 0 2.5%;
+    margin-bottom: 7%;
+}
+
+.box-login {
+    width: 40%;
+    margin: 0 5%;
+    float: left;
+    height: 370px;
+    border-radius: 70px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.21);
+    border: solid 0px #707070;
+    background-color: #ffffff;
+    padding: 3% 2%;
+}
+
+.box-login img {
+    width: 100%;
+}
+
+.box-login h1 {
+    width: 297px;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.87;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0685d9;
+}
+
+.box-login p {
+    width: 62px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeafaf;
+}
+
+.box-login label {
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+    color: #aeafaf;
+}
+
+.box-login input {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.1px #707070;
+    background-color: #fefefe;
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    padding: 1% 2%;
+}
+
+.box-login select {
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.1px #707070;
+    background-color: #fefefe;
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    padding: 1% 2%;
+}
+
+.entrar {
+    width: 400px;
+    height: 40px;
+    border-radius: 80px;
+    background-color: #0685d9;
+    color: #ffffff;
+    padding: 10px 15px;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.entrar:hover {
+    background-color: #339BDF;
+}
+
+.box-login {}
+
+.box-login article {
+    padding: 5% 7%;
 }
 
 
