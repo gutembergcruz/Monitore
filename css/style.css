@@ -1,0 +1,380 @@
+.cab {
+    background-color: #0685d9;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    z-index: 1;
+}
+
+.cab img {
+    width: 100%;
+}
+
+.flutuante {
+    position: fixed;
+}
+
+.cab nav a {
+    font-size: 1.1em;
+    color: #ffffff;
+    margin-left: 5%;
+    font-weight: 300;
+}
+
+.cab nav a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    background-color: #ffffff;
+    padding: 0.4% 2%;
+    text-align: center;
+    border-radius: 20px;
+    color: #0685d9 !important;
+    margin-left: 2% !important;
+}
+
+.cab nav {
+    padding-top: 1.4%;
+}
+
+.secao1 {
+    padding: 17% 15% 5% 15%;
+}
+
+.secao1 img {
+    width: 100%;
+}
+
+.logog {
+    width: 117px;
+    margin-bottom: -246px;
+    margin-left: 103px;
+}
+
+.dizer {
+    padding-left: 15%;
+}
+
+.dizer h1 {
+    color: #0685d9;
+    font-weight: 700;
+    font-size: 2.8em;
+    text-align: left;
+    margin-bottom: 10%;
+}
+
+.dizer a {
+    background-color: #0685d9;
+    display: block;
+    width: 40%;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding: 2% 1%;
+}
+
+.dizer a:hover {
+    background-color: #339BDF;
+}
+
+.secao2 {
+    background-image: url(../img/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-bottom: 5%;
+}
+
+.textos1 {
+    padding-top: 215px;
+}
+
+.textos1 p {
+    display: block;
+    color: #0685d9;
+    font-weight: 400;
+    width: 495px;
+    font-size: 1.5em;
+    text-align: right;
+    margin-bottom: 165px;
+}
+
+.textos1 h1 {
+    display: block;
+    color: #0685d9;
+    font-weight: 700;
+    width: 495px;
+    font-size: 1.5em;
+    text-align: right;
+    margin-left: 500px;
+    margin-bottom: 165px;
+}
+
+.textos1 h2 {
+    display: block;
+    color: #0685d9;
+    font-weight: 700;
+    width: 495px;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.botaozinho {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+}
+
+.contribua {
+    margin-top: 165px;
+    border: 3px solid #0685d9;
+    border-radius: 0px 170px 170px 0px;
+    height: 365px;
+    border-left: none;
+    padding: 0 55px;
+    padding-top: 85px;
+}
+
+.contribua img {
+    width: 100%;
+}
+
+.contribua h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.7em;
+    text-align: left;
+    color: #0685d9;
+    margin-bottom: 7%;
+}
+
+.contribua p {
+    font-size: 1.7em;
+}
+
+.encontre {
+    margin-top: 50px;
+    border: 3px solid #0685d9;
+    border-radius: 170px 0px 0px 170px;
+    height: 365px;
+    border-right: none;
+    padding: 0 55px;
+    padding-top: 85px;
+    float: right;
+}
+
+.encontre img {
+    width: 100%;
+}
+
+.encontre h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.7em;
+    text-align: left;
+    color: #0685d9;
+    margin-bottom: 7%;
+}
+
+.encontre p {
+    font-size: 1.7em;
+}
+
+.start {
+    background-color: #0685d9;
+    display: block;
+    width: 200px;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 1% 1%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.start:hover {
+    background-color: #339BDF;
+}
+
+.roda {
+    background-image: url(../img/roda.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 5% 20%;
+}
+
+.roda h1 {
+    text-transform: uppercase;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 3%;
+    font-size: 1.5em;
+}
+
+.roda a {
+    display: block;
+    font-size: 1.2em;
+    color: #cccccc;
+    font-weight: 300;
+}
+
+.roda a:hover {
+    color: #ffffff;
+}
+
+
+/*EFEITO SPIN*/
+
+@keyframes lds-double-ring {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes lds-double-ring {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes lds-double-ring_reverse {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+@-webkit-keyframes lds-double-ring_reverse {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+
+.lds-double-ring {
+    position: relative;
+}
+
+.lds-double-ring div {
+    box-sizing: border-box;
+}
+
+.lds-double-ring>div {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 16px;
+    left: 16px;
+    border-radius: 50%;
+    border: 8px solid #000;
+    border-color: #0685d9 transparent #0685d9 transparent;
+    -webkit-animation: lds-double-ring 2.5s linear infinite;
+    animation: lds-double-ring 2.5s linear infinite;
+}
+
+.lds-double-ring>div:nth-child(2),
+.lds-double-ring>div:nth-child(4) {
+    width: 250px;
+    height: 250px;
+    top: 36px;
+    left: 38px;
+    -webkit-animation: lds-double-ring_reverse 2.5s linear infinite;
+    animation: lds-double-ring_reverse 2.5s linear infinite;
+}
+
+.lds-double-ring>div:nth-child(2) {
+    border-color: transparent #0685d9 transparent #0685d9;
+}
+
+.lds-double-ring>div:nth-child(3) {
+    border-color: transparent;
+}
+
+.lds-double-ring>div:nth-child(3) div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.lds-double-ring>div:nth-child(3) div:before,
+.lds-double-ring>div:nth-child(3) div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: -8px;
+    left: 72px;
+    background: #0685d9;
+    border-radius: 50%;
+    box-shadow: 0 160px 0 0 #0685d9;
+}
+
+.lds-double-ring>div:nth-child(3) div:after {
+    left: -8px;
+    top: 72px;
+    box-shadow: 160px 0 0 0 #0685d9;
+}
+
+.lds-double-ring>div:nth-child(4) {
+    border-color: transparent;
+}
+
+.lds-double-ring>div:nth-child(4) div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.lds-double-ring>div:nth-child(4) div:before,
+.lds-double-ring>div:nth-child(4) div:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: -8px;
+    left: 62px;
+    background: #0685d9;
+    border-radius: 50%;
+    box-shadow: 0 140px 0 0 #0685d9;
+}
+
+.lds-double-ring>div:nth-child(4) div:after {
+    left: -8px;
+    top: 62px;
+    box-shadow: 140px 0 0 0 #0685d9;
+}
+
+.lds-double-ring {
+    width: 300px !important;
+    height: 300px !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+}

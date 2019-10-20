@@ -1,0 +1,841 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    vertical-align: middle;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+/*Variaveis*/
+
+:root {
+    --cor1: #152F79;
+    --cor1l: #2A4185;
+    --cor1d: #142B6E;
+    /*Cor primária do projeto*/
+    --cor2: #0A8BB5;
+    --cor2l: #4CAAC9;
+    --cor2d: #2095BB;
+    /*Cor secundária do projeto*/
+    --cor3: #46C3F3;
+    --cor3l: #78D3F6;
+    --cor3d: #56C8F4;
+    /*Cor de contraste do peojeto*/
+    --cor4: #0F8DB5;
+    --cor4l: #50ACC9;
+    --cor4d: #2497BB;
+    /*cor de afirmação do projeto*/
+    --corsup: #848484;
+    --corsupl: #fff;
+    --corsupd: #262323;
+    /*Cores de suporte*/
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+figure {
+    display: inline-block;
+    margin-top: -0.5%
+}
+
+
+/*!formaliza os icones*/
+
+.icone_full {
+    margin-right: 3%
+}
+
+.icone_full_botao {
+    margin-right: 3%
+}
+
+h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    text-align: center
+}
+
+
+/*/trocar as font-weight conforme a fonte de escolha*/
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+
+/*/trocar as font-weight conforme a fonte de escolha*/
+
+h3 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+/*/trocar as font-weight conforme a fonte de escolha*/
+
+p {
+    margin-bottom: 5px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+mark {
+    padding: 5px 10px;
+    background-color: #eee;
+}
+
+ul {
+    list-style: none;
+}
+
+small {
+    font-size: 0.75em;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a img {
+    border: 0;
+}
+
+
+/*/////////// BACKGROUND DO PROJETO ///////////////////////////////////*/
+
+.bg-body {
+    background-color: #fff;
+    color: #fff;
+}
+
+.bg-principal {
+    background-color: #fff;
+    color: #000;
+}
+
+.bg-secundaria {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+/*/////////// FONTES WEIGHT DO PROJETO ////////////////////////////////*/
+
+.font100 {
+    font-weight: 100 !important;
+}
+
+.font200 {
+    font-weight: 200 !important;
+}
+
+.font300 {
+    font-weight: 300 !important;
+}
+
+.font400 {
+    font-weight: 400 !important;
+}
+
+.font600 {
+    font-weight: 600 !important;
+}
+
+.font700 {
+    font-weight: 700 !important;
+}
+
+.font900 {
+    font-weight: 900 !important;
+}
+
+
+/*/////////// FONTES SIZE DO PROJETO ////////////////////////////////*/
+
+.fontzero {
+    font-size: 0em !important;
+}
+
+.fontsize1 {
+    font-size: 1em;
+}
+
+.fontesize1b {
+    font-size: 1.5em;
+}
+
+.fontesize2 {
+    font-size: 2em;
+}
+
+.fontesize2b {
+    font-size: 2.5em;
+}
+
+.fontesize3 {
+    font-size: 3em;
+}
+
+.fontesize3b {
+    font-size: 3.5em;
+}
+
+
+/*/////////// HELPERS DO PROJETO ////////////////////////////////*/
+
+.t-shadow {
+    text-shadow: 1px 1px 0 #ccc;
+}
+
+.b-shadow {
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.radius {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.no-margim {
+    margin-right: 0 !important;
+}
+
+.limpar {
+    clear: both !important;
+}
+
+.radius-circulo {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/*/////////// ALINHAMENTO DE TEXTO DO PROJETO ////////////////////////////////*/
+
+.al-left {
+    text-align: left
+}
+
+.al-right {
+    text-align: right
+}
+
+.al-center {
+    text-align: center
+}
+
+
+/*/////////// FLOAT DO PROJETO ////////////////////////////////*/
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+.fl-none {
+    float: none;
+}
+
+
+/*/////////// DISPLAY DO PROJETO ////////////////////////////////*/
+
+.ds-block {
+    display: block;
+}
+
+.ds-inblock {
+    display: inline-block;
+}
+
+.ds-inline {
+    display: inline;
+}
+
+.ds-none {
+    display: none;
+}
+
+
+/*/////////// BOX DO PROJETO ////////////////////////////////*/
+
+.box {
+    width: auto;
+    float: left
+}
+
+.conteudo {
+    float: left;
+    width: 100%;
+}
+
+.conteudo-completo {
+    padding: 0 7%
+}
+
+.box-pequena {
+    width: 22.75%;
+    margin-right: 3%;
+}
+
+.box-media {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.box-larga {
+    width: 48.5%;
+    margin-right: 3%;
+}
+
+.box-completa {
+    width: 100%;
+    margin-right: 0;
+}
+
+.box10 {
+    width: 9%;
+    margin-right: 1%;
+}
+
+.box15 {
+    width: 14%;
+    margin-right: 1%;
+}
+
+.box20 {
+    width: 19%;
+    margin-right: 1%;
+}
+
+.box25 {
+    width: 24%;
+    margin-right: 1%;
+}
+
+.box30 {
+    width: 29%;
+    margin-right: 1%;
+}
+
+.box33 {
+    width: 32.33%;
+    margin-right: 1%;
+}
+
+.box35 {
+    width: 34%;
+    margin-right: 1%;
+}
+
+.box40 {
+    width: 39%;
+    margin-right: 1%;
+}
+
+.box45 {
+    width: 44%;
+    margin-right: 1%;
+}
+
+.box50 {
+    width: 49%;
+    margin-right: 1%;
+}
+
+.box55 {
+    width: 54%;
+    margin-right: 1%;
+}
+
+.box60 {
+    width: 59%;
+    margin-right: 1%;
+}
+
+.box65 {
+    width: 64%;
+    margin-right: 1%;
+}
+
+.box70 {
+    width: 69%;
+    margin-right: 1%;
+}
+
+.box75 {
+    width: 74%;
+    margin-right: 1%;
+}
+
+.box80 {
+    width: 79%;
+    margin-right: 1%;
+}
+
+.box85 {
+    width: 84%;
+    margin-right: 1%;
+}
+
+.box90 {
+    width: 89%;
+    margin-right: 1%;
+}
+
+.box95 {
+    width: 94%;
+    margin-right: 1%;
+}
+
+.box100 {
+    width: 100%;
+}
+
+.box12 {
+    width: 11.5%;
+    margin-left: 1%;
+}
+
+.box16 {
+    width: 15.6%;
+    margin-right: 1%;
+}
+
+
+/*/////////// VIDEO DO PROJETO ////////////////////////////////*/
+
+.video {
+    width: 100%;
+    margin: 0;
+}
+
+.video-pequeno {
+    width: 40%;
+    margin: 0 30%;
+}
+
+.video-medio {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.video-grande {
+    width: 80%;
+    margin: 0 10%;
+}
+
+
+/*/////////// BOTÃO DO PROJETO ////////////////////////////////*/
+
+
+/*.btn{    display: inline-block;    
+         padding:  10px 20px;    
+         background: #000000;    border:  1px solid #222;    
+        cursor: pointer;    
+        color: #fff;    
+        font-size: 1em;        
+        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);    
+        -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);    
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);    
+        -webkit-transition: all 0.2s;    
+        -moz-transition: all 0.2s;    
+        -ms-transition: all 0.2s;    
+        -o-transition: all 0.2s;    
+        transition: all 0.2s;
+                                        }*/
+
+
+/*/////////// ESTILO DE BOTÕES DO PROJETO ////////////////////////////////*/
+
+
+/*/////////// BOTÃO DO PROJETO ////////////////////////////////*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #000000;
+    /*border:  1px solid #222;*/
+    cursor: pointer;
+    color: #fff;
+    font-size: 1em;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+
+/*/////////// ESTILO DE BOTÕES DO PROJETO ////////////////////////////////*/
+
+
+/*/////////// ESTILO UP ////////////////////////////////*/
+
+btn-up {
+    display: inline-block;
+    padding: 10px;
+    background: #fff;
+    border: 1px #333 solid;
+    color: #333 !important;
+    font-size: 1em;
+    font-weight: 300 !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-up:hover {
+    background: #555;
+    color: #fff !important;
+    border-color: #000;
+}
+
+.btn-green-up {
+    background: #56b748;
+    color: #fff !important;
+    border-color: #4a9e3e;
+}
+
+.btn-green-up:hover {
+    background: #4a9e3e;
+    border-color: #3e8434;
+}
+
+.btn-blue-up {
+    background: #498eba;
+    color: #fff !important;
+    border-color: #3d769b;
+}
+
+.btn-blue-up:hover {
+    background: #3d769b;
+    border-color: #f76d2c;
+}
+
+.btn-yellow-up {
+    background: #f76d2c;
+    color: #fff !important;
+    border-color: #d85314;
+}
+
+.btn-yellow-up:hover {
+    background: #d85314;
+    border-color: #aa9406;
+}
+
+.btn-red-up {
+    background: #c1181f;
+    color: #fff !important;
+    border-color: #e1161e;
+}
+
+.btn-red-up:hover {
+    background: #e1161e;
+    border-color: #c1181f;
+}
+
+.btn-gray-up {
+    background: #717171;
+    color: #fff !important;
+    border-color: #565656;
+}
+
+.btn-gray-up:hover {
+    background: #565656;
+    border-color: #3d3d3d;
+}
+
+.btn-dreans-up {
+    background: #8446A0;
+    color: #fff !important;
+    border-color: #581e73;
+}
+
+.btn-dreans-up:hover {
+    background: #581e73;
+    border-color: #3d3d3d;
+}
+
+.btn-fresco {
+    background: #33adbb;
+    color: #fff !important;
+    border-color: #39bfce;
+}
+
+.btn-fresco:hover {
+    background: #39bfce;
+    border-color: #33adbb;
+}
+
+.btn-bluejeans {
+    background: #4A89DC;
+    color: #fff !important;
+    border-color: #5D9CEC;
+}
+
+.btn-bluejeans:hover {
+    background: #5D9CEC;
+    border-color: #4A89DC;
+}
+
+.btn-agua {
+    background: #3BAFDA;
+    color: #fff !important;
+    border-color: #4FC1E9;
+}
+
+.btn-agua:hover {
+    background: #4FC1E9;
+    border-color: #3BAFDA;
+}
+
+.btn-mint {
+    background: #37BC9B;
+    color: #fff !important;
+    border-color: #48CFAD;
+}
+
+.btn-mint:hover {
+    background: #48CFAD;
+    border-color: #37BC9B;
+}
+
+.btn-grass {
+    background: #25A368;
+    color: #fff !important;
+    border-color: #25A368;
+}
+
+.btn-grass:hover {
+    background: #30D186;
+    border-color: #30D186;
+}
+
+.btn-sunflower {
+    background: #FFCE54;
+    color: #fff !important;
+    border-color: #F6BB42;
+}
+
+.btn-sunflower:hover {
+    background: #F6BB42;
+    border-color: #FFCE54;
+}
+
+.btn-bittersweet {
+    background: #E9573F;
+    color: #fff !important;
+    border-color: #FC6E51;
+}
+
+.btn-bittersweet:hover {
+    background: #FC6E51;
+    border-color: #E9573F;
+}
+
+.btn-grapefruit {
+    background: #DA4453;
+    color: #fff !important;
+    border-color: #ED5565;
+}
+
+.btn-grapefruit:hover {
+    background: #ED5565;
+    border-color: #DA4453;
+}
+
+.btn-fresco {
+    background: #33adbb;
+    color: #fff !important;
+    border-color: #39bfce;
+}
+
+.btn-fresco:hover {
+    background: #39bfce;
+    border-color: #33adbb;
+}
+
+.btn-fresco {
+    background: #33adbb;
+    color: #fff !important;
+    border-color: #39bfce;
+}
+
+.btn-fresco:hover {
+    background: #39bfce;
+    border-color: #33adbb;
+}
+
+.btn-fresco {
+    background: #33adbb;
+    color: #fff !important;
+    border-color: #39bfce;
+}
+
+.btn-fresco:hover {
+    background: #39bfce;
+    border-color: #33adbb;
+}
+
+.btn-fresco {
+    background: #33adbb;
+    color: #fff !important;
+    border-color: #39bfce;
+}
+
+.btn-fresco:hover {
+    background: #39bfce;
+    border-color: #33adbb;
+}
+
+.btn-red-cds {
+    background-image: url("../imagens_site/botao01.jpg");
+    color: #fff !important;
+    border-color: #e1161e;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: 117%;
+    background-position: center center;
+}
+
+.btn-red-cds:hover {
+    filter: brightness(120%);
+    border-color: #c1181f;
+}
+
+
+/*/////////// ESTILO A1 ////////////////////////////////*/
+
+.btn-verde {
+    background: #4F8A10;
+    color: #fff;
+    border-bottom: 5px solid #5c9b18;
+}
+
+.btn-verde:hover {
+    background: #5c9b18;
+}
+
+.btn-red {
+    background: #f38181;
+    color: #fff;
+    border-bottom: 5px solid #d86868;
+}
+
+.btn-red:hover {
+    background: #d86868;
+}
+
+.btn-amarelo {
+    background: #fda202;
+    color: #fff;
+    border-bottom: 5px solid #f6861f;
+}
+
+.btn-amarelo:hover {
+    background: #f6861f;
+}
+
+
+/*botoes usando as variaveis de cores*/
+
+.btn-projeto0 {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #002366;
+}
+
+.btn-projeto0:hover {
+    background: #ccc;
+    color: #002366 !important;
+    border: 2px solid #fccc;
+}
+
+.btn-projeto1 {
+    background: var(--cor2);
+    border: 2px solid var(--cor2);
+    color: var(--corsupl);
+}
+
+.btn-projeto1:hover {
+    background: var(--cor2l);
+    border: 2px solid var(--cor2);
+}
+
+.btn-projeto1-inverso {
+    background: transparent;
+    color: #002366;
+    border: 2px solid #002366;
+}
+
+.btn-projeto1-inverso:hover {
+    background-color: #002366;
+    color: #ffffff;
+    border: 2px solid #002366;
+}
+
+.btn-projeto1-inverso1 {
+    background: transparent;
+    color: var(--corsupl);
+    border: 2px solid #fff;
+}
+
+.btn-projeto1-inverso1:hover {
+    background-color: #ffffff;
+    color: #002366 !important;
+    border: 2px solid #ffffff;
+}
+
+
+/*/////////// ESTILO A2 ////////////////////////////////*/
+
+.btn-quadrado-azul {
+    background: #fff;
+    color: #3b7aaf;
+    border: 3px solid #3b7aaf;
+}
+
+.btn-quadrado-azul:hover {
+    color: #86cde1;
+    border: 3px solid #86cde1;
+}
+
+.btn-quadrado-branco {
+    background-color: #c71342;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-quadrado-branco:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}

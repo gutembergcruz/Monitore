@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/superboot.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <script src="js/jquery.js"></script>
+
+</head>
+<header class=" box conteudo conteudo-completo">
+    <a href="">
+        <img src="img/Ativo 6.png" title="" alt="">
+    </a>
+</header>
+<footer class="box conteudo conteudo-completo roda">
+    <article class="box box33">
+        <h1>Resources</h1>
+        <a href="">About Us</a>
+        <a href="">Analytical Map</a>
+        <a href="">Tutorial</a>
+    </article>
+    <article class="box box33">
+        <h1>Docs</h1>
+        <a href="">Prerequisites</a>
+        <a href="">Requirements</a>
+        <a href="">Testing</a>
+    </article>
+    <article class="box box33 no-margin">
+        <h1>Community</h1>
+        <a href="">Blog</a>
+        <a href="">Instagram</a>
+        <a href="">Facebook</a>
+        <a href="">Twiter</a>
+    </article>
+</footer>
+<script>
+    jQuery(document).ready(function($) {
+        $(".botaozinho").click(function(event) {
+            event.preventDefault();
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 600);
+        });
+    });
+</script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-database.js"></script>
+</body>
+
+</html>
